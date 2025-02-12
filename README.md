@@ -65,5 +65,50 @@ public class Job {
 	public Job(int n) {
 		System.out.println("para cons");
 	}
-
 }
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Method overriding:
+overriding = replacing old by new
+Method overriding = replacing old definition by new definition
+Example:
+Parent class : greet() -> Pranam
+Child class : greet() -> Namaste
+
+Application of Method overriding:
+Whenever we need to modify the original functionality to new one. we must override the existing methods.
+
+Bullet points:
+
+1. We must have inheritance in picture in order to override a method.
+
+2. The methods with same name and same parameters in inherited classes are called overridden.
+
+3. The final method can not be overridden.
+
+4. The final method can be overloaded.
+
+5. The constructor overriding is NOT possible.
+
+Method overloading Vs Method overriding:
+
+1. synonyms                   compile time Polymorphism       runtime Polymorphism
+                              early binding                   late binding. 
+                              method overloading              method overriding
+                              static polymorphism             dynamic polymorphism
+
+2. name                       methods with same name           methods with same name 
+      
+3. parameters                 parameters Different             parameters same
+
+4. inheritance                not Mandatory                    Mandatory (for replacing old by new. old is required)
+
+5. Constructor                possibble                        not possible(name will be same as class name not a parent constructor)
+
+6. final keyword              possibble to use                 can't be use(because using final keyword method value wiil be freez)
+
+7. @Override annotation       feature is not available         feature is available(give information about method.it's feature of java 1.5)
+
+8. super keyword              can't use                         possibble to use(send the value of child class to the parent class)
+
+The parent can hold reference of child. It means, we can call the constructor of child class to create child's object but we store it in parent. It is called as "Dynamic Dispatch".
+
