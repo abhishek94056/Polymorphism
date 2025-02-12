@@ -2,7 +2,7 @@ Q. What is the meaning of the word Polymorphism?
 A. The Polymorphism is the ability to take up many forms.
 
 Q. What is the meaning of the word Polymorphism in Java?
-A. In Java, we can have many versions/forms of methods.
+A. In Java, we can have many versions/forms of methods
 Method overloading and Method overriding
 
 Q. What are the types of Polymorphism?
