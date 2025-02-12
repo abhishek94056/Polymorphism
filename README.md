@@ -89,26 +89,5 @@ Bullet points:
 
 5. The constructor overriding is NOT possible.
 
-Method overloading Vs Method overriding:
-
-1. synonyms                   compile time Polymorphism       runtime Polymorphism
-                              early binding                   late binding. 
-                              method overloading              method overriding
-                              static polymorphism             dynamic polymorphism
-
-2. name                       methods with same name           methods with same name 
-      
-3. parameters                 parameters Different             parameters same
-
-4. inheritance                not Mandatory                    Mandatory (for replacing old by new. old is required)
-
-5. Constructor                possibble                        not possible(name will be same as class name not a parent constructor)
-
-6. final keyword              possibble to use                 can't be use(because using final keyword method value wiil be freez)
-
-7. @Override annotation       feature is not available         feature is available(give information about method.it's feature of java 1.5)
-
-8. super keyword              can't use                         possibble to use(send the value of child class to the parent class)
-
 The parent can hold reference of child. It means, we can call the constructor of child class to create child's object but we store it in parent. It is called as "Dynamic Dispatch".
 
